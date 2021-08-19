@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>
+      My Family
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <p class="header">
+      <h1>
+      My Family
+    </h1></p>
+  <img id="walk" src="https://ih1.redbubble.net/image.657223573.3587/st,small,845x845-pad,1000x1000,f8f8f8.u5.jpg">
+  <div>
+  <button type="button" onclick="nextslide()" id="lol">
+    Next
+    </button>
+    </div>
+    <script>
+        var image= [
+  "https://i.pinimg.com/736x/20/7c/9a/207c9a0c107ec57c0d97d5ae0bbbc851.jpg",
+ "https://previews.123rf.com/images/grgroup/grgroup1611/grgroup161108913/65491760-boy-cartoon-icon-kid-childhood-little-people-and-person-theme-isolated-design-vector-illustration.jpg", 
+  "https://lh3.googleusercontent.com/proxy/RF5lWjyxJjFEopLgO7r48bzmqvrQ1R0j7KncsXsRS3S8ASerrWcmOASDWY9qebqGRABNpDJT7Wg_14FZENTMO5wCrp730a0",
+  "https://www.pikpng.com/pngl/m/43-434426_animated-people-talking-cartoon-clipart.png",
+  
+];
+
+var i=0;
+function nextslide() {
+  if(i == 9)
+    {
+      i=0;
+    } document.getElementById("walk").src=image[i]; i++;
+}
+
+    </script>
+    
+  </body>
+    </html>

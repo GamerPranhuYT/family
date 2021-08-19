@@ -1,0 +1,10 @@
+body {
+    text-align:center;
+  }
+  
+  #walk {
+    width:500px;
+    border-bottom:5px solid black;
+    padding:3px;
+    height:500px;
+  }
